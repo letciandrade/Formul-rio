@@ -70,7 +70,7 @@ gap: 12px;
 }
 
 
-.senha{
+.password{
 background: url(./img/Lock.svg);
 background-repeat: no-repeat;
 background-color: rgba(113, 128, 185, 0.32);
@@ -109,6 +109,7 @@ border: none;
 }
 
 .botao-login{
+   
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -149,6 +150,7 @@ line-height: 24px;
 }
 
 .github-botao{
+   
 position: absolute;
 width: 300px;
 height: 48px;

@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto&display=swap" rel="stylesheet">
     <title>HighSchool</title>
 </head>
+
 <body>
-    
-    <h1>HighSchool</h1><img class="ponto-azul"src="./img/Ellipse 1.svg" alt="">
+    <main>
+        <h1>HighSchool</h1>
+        <img class="ponto-azul" src="./img/Ellipse 1.svg" alt="">
 
-    <div class="grupo-jovens">
-        <img src="./img/image.png" alt="">
-    </div>
+        <div class="grupo-jovens">
+            <img src="./img/image.png" alt="">
+        </div>
 
-    <div class="container">
-        <p class="Login">Login</p>
-        <form action="">
-           
-<input  class="email" type="text" placeholder="Email">
-<input  class="senha" type="password" placeholder="******">
-<button class="botao-login">Login</button>
+        <div class="container">
+            <p class="Login">Login</p>
+            <form id="form" action="/" method="GET">
+                <div class="error">
+                    <input id="email" class="email" type="Email" placeholder="Email">
+                    <input id="senha" class="password" type="password" placeholder="******">
+                    <button onclick="addEventListener()" type="submit" class="botao-login">Login</button>
 
-<hr>
+                </div>
 
-<p class="entrar-com">Ou entre com</p>
-<button  class="github-botao"><img src="./img/Vector.svg" alt="">  Github</button>
-        </form>
-    </div>
-    
+                <hr>
+
+                <p class="entrar-com">Ou entre com</p>
+                <button type="button" class="github-botao">
+                <img src="./img/Vector.svg" alt="">Github</button>
+            </form>
+        </div>
+    </main>
 
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
